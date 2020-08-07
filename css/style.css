@@ -1,0 +1,546 @@
+/* Navbar */
+
+.bg {
+    background-image: linear-gradient(to right, #2B95FB, #6B65FF);
+}
+
+.navbar-brand {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+
+.navbar-brand::after {
+    content: '';
+    display: block;
+    border-bottom: 5px solid white;
+    width: 40px;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    margin-right: 40px;
+    font-family: poppins;
+    font-weight: 600;
+    color: white !important;
+    transition: 0.2s ease-out;
+}
+
+.tombol {
+    font-family: poppins;
+    font-weight: 600;
+    border-color: white;
+    color: #2B95FB;
+    border-width: 2px;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: white;
+    text-align: center;
+}
+
+.jumbotron .ilus-1 {
+    display: none;
+}
+
+.jumbotron .welcome .display-4 {
+    font-family: poppins;
+    font-weight: bold;
+    color: #2B95FB;
+    font-size: 54px;
+}
+
+.jumbotron .welcome .lead {
+    font-size: 16px;
+    margin-top: -10px;
+    color: #6B65FF;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.jumbotron .welcome p {
+    color: #696969;
+    font-family: poppins;
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+.jumbotron .welcome .get-started {
+    margin-top: 10px;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(43, 149, 251, 0.4);
+}
+
+
+
+
+/* Services */
+
+.title {
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 0 30px;
+    color: #2B95FB;
+}
+
+.title::after {
+    content: '';
+    display: block;
+    border-bottom: 5px solid #2B95FB;
+    width: 70px;
+    margin-top: 5px;
+}
+
+.serv-card {
+    margin: 30px 30px;
+}
+
+.card-img-top {
+    width: 90px;
+    margin: 0 80px;
+    z-index: 1;
+    position: relative;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.blue {
+    border: 2px solid #2B95FB;
+    box-shadow: 5px 5px 10px rgba(43, 149, 251, 0.4);
+    margin-top: -30px;
+    border-radius: 10px;
+}
+
+.purp {
+    border: 2px solid #6B65FF;
+    box-shadow: 5px 5px 10px rgba(107, 101, 225, 0.4);
+    margin-top: -30px;
+    border-radius: 10px;
+}
+
+.card-body {
+    margin-top: 30px;
+}
+
+.card-title {
+    color: #2B95FB;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-text {
+    font-family: poppins;
+    font-size: 14px;
+    color: #696969;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.learn-more {
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.learn-more .iconfy {
+    font-size: 16px;
+}
+
+.text-purp {
+    color: #6B65FF;
+}
+
+
+
+
+/* Benefits */
+
+.bg-benefits {
+    padding-bottom: 2rem;
+}
+
+.benefits-section {
+    margin-top: 30px;
+}
+
+.chart-pic {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.chart-pic-2 {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.benefits h3 {
+    font-size: 28px;
+    font-family: poppins;
+    font-weight: bold;
+    color: #6B65FF;
+}
+
+.benefits p {
+    font-family: poppins;
+    line-height: 2rem;
+    font-size: 14px;
+    color: #696969;
+    margin-top: 20px;
+}
+
+.benefits a {
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6B65FF;
+}
+
+.benefits-2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.benefits-2 h3 {
+    font-size: 28px;
+    font-family: poppins;
+    font-weight: bold;
+    color: #2B95FB;
+}
+
+.benefits-2 p {
+    font-family: poppins;
+    line-height: 2rem;
+    font-size: 14px;
+    color: #696969;
+    margin-top: 20px;
+}
+
+.benefits-2 a {
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2B95FB;
+}
+
+
+
+
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px) {
+
+    /* Navbar */
+
+    .navbar {
+        background: transparent !important;
+    }
+
+    .navbar-brand {
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 32px;
+        color: white !important;
+    }
+    
+    .navbar-brand::after {
+        content: '';
+        display: block;
+        border-bottom: 4px solid white;
+        width: 40px;
+    }
+    
+    .navbar-brand:hover {
+        color: white;
+    }
+    
+    .nav-link {
+        margin-right: 40px;
+        font-family: poppins;
+        font-weight: 600;
+        color: #6B65FF !important;
+        transition: 0.2s ease-out;
+    }
+    
+    .nav-link:hover {
+        color: #696969 !important;
+    }
+    
+    .active::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #6B65FF;
+        width: 30px;
+    }
+    
+    .active:hover {
+        color: #6B65FF !important;
+    }
+    
+    .tombol {
+        font-family: poppins;
+        color: #2B95FB;
+        font-weight: 600;
+        border-color: #2B95FB;
+        border-width: 2px;
+        border-radius: 8px;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: transparent;
+    }
+
+
+
+    
+    /* Jumbotron */
+
+    .jumbotron {
+        background-image: url(../img/svg/Vector-1.svg);
+        background-color: white;
+        background-size: 600px;
+        background-repeat: no-repeat;
+        height: 700px;
+        margin-top: -80px;
+        text-align: left;
+    }
+
+    .jumbotron .ilus-1 {
+        display: block;
+        float: right;
+        margin-top: 70px;
+    }
+
+    .jumbotron .welcome {
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+
+    .jumbotron .welcome .display-4 {
+        font-family: poppins;
+        font-weight: bold;
+        color: #2B95FB;
+        font-size: 80px;
+    }
+
+    .jumbotron .welcome .lead {
+        font-size: 22px;
+        margin-top: -10px;
+        color: #6B65FF;
+        font-family: poppins;
+        font-weight: 600;
+    }
+
+    .jumbotron .welcome p {
+        color: #696969;
+        font-family: poppins;
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+
+    .jumbotron .welcome .get-started {
+        margin-top: 10px;
+        font-family: poppins;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 8px;
+        box-shadow: 4px 4px 10px rgba(43, 149, 251, 0.4);
+        transition: 0.4s ease-out;
+    }
+
+    .jumbotron .welcome .get-started:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+
+
+
+    /* Services */
+
+    .title {
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 36px;
+        padding: 0;
+    }
+
+    .title::after {
+        content: '';
+        display: block;
+        border-bottom: 5px solid #2B95FB;
+        width: 70px;
+    }
+
+    .serv-card {
+        margin: 40px 0;
+    }
+
+    .card-img-top {
+        width: 90px;
+        margin: 0 80px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .card {
+        width: 250px;
+        height: 250px;
+    }
+
+    .blue {
+        border: 2px solid #2B95FB;
+        box-shadow: 5px 5px 10px rgba(43, 149, 251, 0.4);
+        margin-top: -30px;
+        border-radius: 10px;
+    }
+
+    .purp {
+        border: 2px solid #6B65FF;
+        box-shadow: 5px 5px 10px rgba(107, 101, 225, 0.4);
+        margin-top: -30px;
+        border-radius: 10px;
+    }
+
+    .card-body {
+        margin-top: 30px;
+    }
+
+    .card-title {
+        color: #2B95FB;
+        font-family: poppins;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-family: poppins;
+        font-size: 14px;
+        color: #696969;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .learn-more {
+        font-family: poppins;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .learn-more .iconfy {
+        font-size: 16px;
+    }
+
+    .text-purp {
+        color: #6B65FF;
+    }
+
+
+
+    /* Benefits */
+
+    .bg-benefits {
+        background-image: url(../img/svg/vector-2.svg);
+        background-size: 130px;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-position-y: 8rem;
+        padding-bottom: 6rem;
+    }
+
+    .benefits-section {
+        margin-top: 30px;
+    }
+
+    .chart-pic {
+        width: 500px;
+        float: left;
+    }
+
+    .chart-pic-2 {
+        width: 500px;
+        float: right;
+    }
+
+    .benefits {
+        margin-left: 30px;
+        float: right;
+        text-align: left;
+    }
+
+    .benefits h3 {
+        font-size: 38px;
+        font-family: poppins;
+        font-weight: bold;
+        color: #6B65FF;
+    }
+
+    .benefits p {
+        font-family: poppins;
+        line-height: 2rem;
+        font-size: 16px;
+        color: #696969;
+        margin-top: 20px;
+    }
+
+    .benefits a {
+        font-family: poppins;
+        font-size: 16px;
+        font-weight: 500;
+        color: #6B65FF;
+    }
+
+    .benefits-2 {
+        margin-left: 30px;
+        margin-top: 50px;
+        text-align: left;
+    }
+
+    .benefits-2 h3 {
+        font-size: 38px;
+        font-family: poppins;
+        font-weight: bold;
+        color: #2B95FB;
+    }
+
+    .benefits-2 p {
+        font-family: poppins;
+        line-height: 2rem;
+        font-size: 16px;
+        color: #696969;
+        margin-top: 20px;
+    }
+
+    .benefits-2 a {
+        font-family: poppins;
+        font-size: 16px;
+        font-weight: 500;
+        color: #2B95FB;
+    }
+}
